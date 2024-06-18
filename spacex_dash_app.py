@@ -27,11 +27,11 @@ app.layout = html.Div(children=[html.H1('SpaceX Launch Records Dashboard',
                                          {'label': 'CCAFS SLC40', 'value': 'CCAFS SLC40'},
                                          {'label': 'KSC LC-39A', 'value': 'KSC LC39-A'},
                                          {'label': 'VAFB SLC-4E', 'value': 'VAFB SLC-4E'},
-                                ]),
+                                ],
                                 value='ALL',
                                 placeholder="place holder here",
                                 searchable=True,
-                                ),
+                                )),
                                 html.Br(),
 
                                 # TASK 2: Add a pie chart to show the total successful launches count for all sites
